@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
-import { Brain, Menu, X } from 'lucide-react';
+import React, { useState } from 'react'
+import { Brain, Menu, X } from 'lucide-react'
 
 const Header: React.FC = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+    setIsMenuOpen(!isMenuOpen)
+  }
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-sm border-b border-gray-800">
@@ -50,7 +50,7 @@ const Header: React.FC = () => {
         )}
       </div>
     </header>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

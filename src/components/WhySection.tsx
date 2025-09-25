@@ -1,5 +1,5 @@
-import React from 'react';
-import { Check, Zap } from 'lucide-react';
+import React from 'react'
+import { Check, Zap } from 'lucide-react'
 
 const WhySection: React.FC = () => {
   const benefits = [
@@ -8,7 +8,7 @@ const WhySection: React.FC = () => {
     'Save hours of manual research and analysis',
     'Build your personal knowledge graph',
     'Make better decisions with data-driven insights'
-  ];
+  ]
 
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8">
@@ -67,7 +67,7 @@ const WhySection: React.FC = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default WhySection;
+export default WhySection

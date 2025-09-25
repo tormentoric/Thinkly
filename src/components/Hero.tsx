@@ -1,5 +1,5 @@
-import React from 'react';
-import { Brain, ArrowRight } from 'lucide-react';
+import React from 'react'
+import { Brain, ArrowRight } from 'lucide-react'
 
 const Hero: React.FC = () => {
   return (
@@ -36,7 +36,7 @@ const Hero: React.FC = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero

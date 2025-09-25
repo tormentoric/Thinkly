@@ -1,5 +1,5 @@
-import React from 'react';
-import { Brain, Twitter, Github, Linkedin, Mail } from 'lucide-react';
+import React from 'react'
+import { Brain, Twitter, Github, Linkedin, Mail } from 'lucide-react'
 
 const Footer: React.FC = () => {
   return (
@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

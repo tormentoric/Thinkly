@@ -1,5 +1,5 @@
-import React from 'react';
-import { Check, Brain, Zap, Star } from 'lucide-react';
+import React from 'react'
+import { Check, Brain, Zap, Star } from 'lucide-react'
 
 const Pricing: React.FC = () => {
   const plans = [
@@ -61,7 +61,7 @@ const Pricing: React.FC = () => {
       buttonClass: 'btn-secondary w-full',
       popular: false
     }
-  ];
+  ]
 
   return (
     <section id="pricing" className="py-20 px-4 sm:px-6 lg:px-8">
@@ -126,7 +126,7 @@ const Pricing: React.FC = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Pricing;
+export default Pricing

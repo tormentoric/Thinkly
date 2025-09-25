@@ -1,5 +1,5 @@
-import React from 'react';
-import { Upload, MessageSquare, FileText, TrendingUp, Link, Shield } from 'lucide-react';
+import React from 'react'
+import { Upload, MessageSquare, FileText, TrendingUp, Link, Shield } from 'lucide-react'
 
 const Features: React.FC = () => {
   const features = [
@@ -33,7 +33,7 @@ const Features: React.FC = () => {
       title: 'Privacy First',
       description: 'Your data stays private and secure with end-to-end encryption.'
     }
-  ];
+  ]
 
   return (
     <section id="features" className="py-20 px-4 sm:px-6 lg:px-8">
@@ -62,7 +62,7 @@ const Features: React.FC = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Features;
+export default Features

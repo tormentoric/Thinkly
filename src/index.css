@@ -8,13 +8,19 @@
   box-sizing: border-box;
 }
 
-body {
+html, body {
+  height: 100%;
   font-family: 'Inter', sans-serif;
   background-color: #000000;
   color: #ffffff;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+  background-color: #000000;
 }
 
 html {
@@ -39,12 +45,7 @@ html {
   background: #444444;
 }
 
-/* Smooth transitions */
-* {
-  transition: all 0.2s ease-in-out;
-}
-
-/* Button hover effects */
+/* Button styles */
 .btn-primary {
   @apply bg-white text-black px-6 py-3 rounded-lg font-medium hover:bg-gray-200 transition-all duration-200 transform hover:scale-105;
 }
@@ -53,7 +54,7 @@ html {
   @apply border border-gray-600 text-white px-6 py-3 rounded-lg font-medium hover:border-white hover:bg-white hover:text-black transition-all duration-200;
 }
 
-/* Card hover effects */
+/* Card styles */
 .feature-card {
   @apply bg-gray-900 border border-gray-800 rounded-xl p-6 hover:border-gray-600 hover:bg-gray-800 transition-all duration-300 transform hover:scale-105;
 }
@@ -73,15 +74,6 @@ html {
 /* Brain icon animation */
 .brain-icon {
   animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-  0%, 100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.7;
-  }
 }
 
 /* Mobile responsiveness */
