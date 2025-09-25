@@ -17,7 +17,7 @@ const WhySection: React.FC = () => {
           {/* Left Column - Why Section */}
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">
-              Why Thinkly AI?
+              Why GyanGanga AI?
             </h2>
             <p className="text-lg text-gray-400 mb-8 leading-relaxed">
               Stop losing valuable information in scattered files and forgotten bookmarks. 

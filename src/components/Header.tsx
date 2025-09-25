@@ -15,7 +15,7 @@ const Header: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <Brain className="w-8 h-8 text-white brain-icon" />
-            <span className="text-xl font-bold text-white">Thinkly AI</span>
+            <span className="text-xl font-bold text-white">GyanGanga AI</span>
           </div>
 
           {/* Desktop Navigation */}

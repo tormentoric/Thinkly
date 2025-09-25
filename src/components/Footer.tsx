@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <Brain className="w-8 h-8 text-white" />
-              <span className="text-xl font-bold text-white">Thinkly AI</span>
+              <span className="text-xl font-bold text-white">GyanGanga AI</span>
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
               Your personal knowledge concierge. Transform documents into intelligent insights 
@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2025 Thinkly AI. All rights reserved.
+            © 2025 GyanGanga AI. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Privacy Policy</a>
